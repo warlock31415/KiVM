@@ -366,53 +366,88 @@
         "microvia_drill": 0.1,
         "name": "50Ohm_Diff",
         "nets": [
-          "/HDMISwitch/AUX_SEL",
-          "/HDMISwitch/DA0_M",
-          "/HDMISwitch/DA0_P",
-          "/HDMISwitch/DP_A.AUX_M",
-          "/HDMISwitch/DP_A.AUX_P",
-          "/HDMISwitch/DP_A.D0_M",
-          "/HDMISwitch/DP_A.D0_P",
-          "/HDMISwitch/DP_A.D1_M",
-          "/HDMISwitch/DP_A.D1_P",
-          "/HDMISwitch/DP_A.D2_M",
-          "/HDMISwitch/DP_A.D2_P",
-          "/HDMISwitch/DP_A.D3_M",
-          "/HDMISwitch/DP_A.D3_P",
-          "/HDMISwitch/DP_A.DDCCLK",
-          "/HDMISwitch/DP_A.DDCDAT",
-          "/HDMISwitch/DP_A.HPD",
-          "/HDMISwitch/DP_B.AUX_M",
-          "/HDMISwitch/DP_B.AUX_P",
-          "/HDMISwitch/DP_B.D0_M",
-          "/HDMISwitch/DP_B.D0_P",
-          "/HDMISwitch/DP_B.D1_M",
-          "/HDMISwitch/DP_B.D1_P",
-          "/HDMISwitch/DP_B.D2_M",
-          "/HDMISwitch/DP_B.D2_P",
-          "/HDMISwitch/DP_B.D3_M",
-          "/HDMISwitch/DP_B.D3_P",
-          "/HDMISwitch/DP_B.DDCCLK",
-          "/HDMISwitch/DP_B.DDCDAT",
-          "/HDMISwitch/DP_B.HPD",
-          "/HDMISwitch/DP_C.AUX_M",
-          "/HDMISwitch/DP_C.AUX_P",
-          "/HDMISwitch/DP_C.D0_M",
-          "/HDMISwitch/DP_C.D0_P",
-          "/HDMISwitch/DP_C.D1_M",
-          "/HDMISwitch/DP_C.D1_P",
-          "/HDMISwitch/DP_C.D2_M",
-          "/HDMISwitch/DP_C.D2_P",
-          "/HDMISwitch/DP_C.D3_M",
-          "/HDMISwitch/DP_C.D3_P",
-          "/HDMISwitch/DP_C.DDCCLK",
-          "/HDMISwitch/DP_C.DDCDAT",
-          "/HDMISwitch/DP_C.HPD",
-          "/HDMISwitch/SOURCE_SEL",
-          "/HDMISwitch/SWITCH_OE"
+          "/DPSwitch/AUXC_M",
+          "/DPSwitch/AUXC_P",
+          "/DPSwitch/AUX_SEL",
+          "/DPSwitch/DPC_D0_M",
+          "/DPSwitch/DPC_D0_P",
+          "/DPSwitch/DPC_D1_M",
+          "/DPSwitch/DPC_D1_P",
+          "/DPSwitch/DPC_D2_M",
+          "/DPSwitch/DPC_D2_P",
+          "/DPSwitch/DPC_D3_M",
+          "/DPSwitch/DPC_D3_P",
+          "/Output Connectors/SINK_DP.AUX_M",
+          "/Output Connectors/SINK_DP.AUX_P",
+          "/Output Connectors/SINK_DP.D0_M",
+          "/Output Connectors/SINK_DP.D0_P",
+          "/Output Connectors/SINK_DP.D1_M",
+          "/Output Connectors/SINK_DP.D1_P",
+          "/Output Connectors/SINK_DP.D2_M",
+          "/Output Connectors/SINK_DP.D2_P",
+          "/Output Connectors/SINK_DP.D3_M",
+          "/Output Connectors/SINK_DP.D3_P",
+          "/Output Connectors/SINK_DP.HPD",
+          "/SINK_C_DP.AUX_M",
+          "/SINK_C_DP.AUX_P",
+          "/SINK_C_DP.D0_M",
+          "/SINK_C_DP.D0_P",
+          "/SINK_C_DP.D1_M",
+          "/SINK_C_DP.D1_P",
+          "/SINK_C_DP.D2_M",
+          "/SINK_C_DP.D2_P",
+          "/SINK_C_DP.D3_M",
+          "/SINK_C_DP.D3_P",
+          "/SINK_C_DP.DDCCLK",
+          "/SINK_C_DP.DDCDAT",
+          "/SINK_C_DP.HPD",
+          "/SOURCE_A_DP.AUX_M",
+          "/SOURCE_A_DP.AUX_P",
+          "/SOURCE_A_DP.D0_M",
+          "/SOURCE_A_DP.D0_P",
+          "/SOURCE_A_DP.D1_M",
+          "/SOURCE_A_DP.D1_P",
+          "/SOURCE_A_DP.D2_M",
+          "/SOURCE_A_DP.D2_P",
+          "/SOURCE_A_DP.D3_M",
+          "/SOURCE_A_DP.D3_P",
+          "/SOURCE_A_DP.DDCCLK",
+          "/SOURCE_A_DP.DDCDAT",
+          "/SOURCE_A_DP.HPD",
+          "/SOURCE_B_DP.AUX_M",
+          "/SOURCE_B_DP.AUX_P",
+          "/SOURCE_B_DP.D0_M",
+          "/SOURCE_B_DP.D0_P",
+          "/SOURCE_B_DP.D1_M",
+          "/SOURCE_B_DP.D1_P",
+          "/SOURCE_B_DP.D2_M",
+          "/SOURCE_B_DP.D2_P",
+          "/SOURCE_B_DP.D3_M",
+          "/SOURCE_B_DP.D3_P",
+          "/SOURCE_B_DP.DDCCLK",
+          "/SOURCE_B_DP.DDCDAT",
+          "/SOURCE_B_DP.HPD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 72, 0)",
+        "schematic_color": "rgb(95, 94, 136)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm_Diff",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(75, 87, 76)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -479,28 +514,60 @@
       ""
     ],
     [
-      "d1763daf-eb6c-42ea-91a7-4be8db7955c1",
-      "Input Connectors B"
+      "f2601de5-6119-464a-b841-69cdc92208b9",
+      "DPSwitch"
     ],
     [
-      "65ac25af-da52-4090-9420-1498e0e571cb",
-      "HDMISwitch"
-    ],
-    [
-      "626bd34c-8e54-4622-a8c5-f5fd216aeb2d",
+      "eb1a5f30-b749-4bfd-9531-3141360b0a4b",
       "USB"
     ],
     [
-      "d2155271-d07c-4770-9e7c-995baaa90a59",
+      "90d07cac-fa4c-41c2-9d67-7f8f019373dd",
+      "Input Connectors B"
+    ],
+    [
+      "2316ae62-524e-493b-81b1-b2e4a75e400c",
+      "USB Switch"
+    ],
+    [
+      "ab4ba3e9-a611-4d10-9d06-ad295d724231",
+      "Source 2 Switch"
+    ],
+    [
+      "27657fe8-b452-4c56-a63c-0de467e70434",
       "Output Connectors"
     ],
     [
-      "88954f28-7e4d-4676-9994-bc4dd58ea9c1",
+      "052eedd4-ad16-4e31-aa3a-64de8b7539ca",
+      "KVM"
+    ],
+    [
+      "f3b1e86b-0ae6-4c98-833b-80f152fb499e",
+      "Power"
+    ],
+    [
+      "82967964-ba91-4f52-af8b-f888e27715d3",
       "Input Connectors A"
     ],
     [
-      "321c3d36-406f-4a5f-ad7c-7cd999aedc10",
-      "USB Switch"
+      "061faa20-bc25-4e2c-aca6-0edfc77115e5",
+      "LED"
+    ],
+    [
+      "564facac-4525-495d-86b4-f74b47fb1ffc",
+      "Buck_5V"
+    ],
+    [
+      "3650501b-ac70-4189-a0a4-dc02aeae09de",
+      "Buck or Source 1"
+    ],
+    [
+      "254d17a8-e948-4870-9f74-64706306cbcb",
+      "VBUS Switch"
+    ],
+    [
+      "ecefd951-f295-42bb-a5cb-8598ed1aed8b",
+      "Buck_3v3"
     ]
   ],
   "text_variables": {}
