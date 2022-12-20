@@ -479,12 +479,28 @@
       ""
     ],
     [
-      "1237b881-e290-4aaa-b58e-b6d57e28899e",
-      "Power"
+      "d1763daf-eb6c-42ea-91a7-4be8db7955c1",
+      "Input Connectors B"
     ],
     [
       "65ac25af-da52-4090-9420-1498e0e571cb",
       "HDMISwitch"
+    ],
+    [
+      "626bd34c-8e54-4622-a8c5-f5fd216aeb2d",
+      "USB"
+    ],
+    [
+      "d2155271-d07c-4770-9e7c-995baaa90a59",
+      "Output Connectors"
+    ],
+    [
+      "88954f28-7e4d-4676-9994-bc4dd58ea9c1",
+      "Input Connectors A"
+    ],
+    [
+      "321c3d36-406f-4a5f-ad7c-7cd999aedc10",
+      "USB Switch"
     ]
   ],
   "text_variables": {}
