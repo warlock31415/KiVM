@@ -492,6 +492,7 @@
   )
 
   (bus_alias "USB" (members "DATA_P" "DATA_M"))
+
   (junction (at 99.441 22.6314) (diameter 0) (color 0 0 0 0)
     (uuid 07b00b0a-31af-4693-967c-e87b6fa41e9e)
   )

@@ -502,7 +502,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Outputs/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -550,16 +550,12 @@
       "Input Connectors A"
     ],
     [
-      "061faa20-bc25-4e2c-aca6-0edfc77115e5",
-      "LED"
-    ],
-    [
       "564facac-4525-495d-86b4-f74b47fb1ffc",
       "Buck_5V"
     ],
     [
       "3650501b-ac70-4189-a0a4-dc02aeae09de",
-      "Buck or Source 1"
+      "BuckSwitch"
     ],
     [
       "254d17a8-e948-4870-9f74-64706306cbcb",
