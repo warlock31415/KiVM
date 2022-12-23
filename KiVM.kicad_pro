@@ -124,7 +124,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1352550|1280668|f129bade-bb0b-4e70-aec1-5a4e2b35a588|00000000-0000-0000-0000-000000000000",
+      "multiple_net_names|1207008|647192|ad0c9970-3cd8-4d0a-9331-0b05d5d16099|6b715494-edfc-4787-b577-cae8c210d350",
+      "pin_to_pin|1370330|819912|37d4c1d5-e1c2-4f4f-abcd-91f560dca544|f7088247-1a74-4ed4-ad80-ad9d1bac54c6",
+      "pin_to_pin|1636268|881380|b3fac6f0-e3af-47ae-a4bd-13ce917236a0|484c61fa-1281-4c3b-aebb-8662a9848d39",
+      "power_pin_not_driven|1167130|433832|dc8923d2-63c3-45ad-ab8b-d56307f9bebc|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1361186|996442|b7e14e8d-6874-470d-8d78-7f80a16dd3ce|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1420368|615188|fed6817f-cdbf-4541-b7e8-6cda9647851e|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1427988|881380|75ba0196-ef04-4327-baca-b66d67639577|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -311,7 +320,7 @@
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "ignore",
       "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
@@ -514,40 +523,36 @@
       ""
     ],
     [
-      "f2601de5-6119-464a-b841-69cdc92208b9",
-      "DPSwitch"
+      "052eedd4-ad16-4e31-aa3a-64de8b7539ca",
+      "KVM"
     ],
     [
-      "eb1a5f30-b749-4bfd-9531-3141360b0a4b",
-      "USB"
+      "82967964-ba91-4f52-af8b-f888e27715d3",
+      "Input Connectors A"
     ],
     [
       "90d07cac-fa4c-41c2-9d67-7f8f019373dd",
       "Input Connectors B"
     ],
     [
+      "f2601de5-6119-464a-b841-69cdc92208b9",
+      "DPSwitch"
+    ],
+    [
       "2316ae62-524e-493b-81b1-b2e4a75e400c",
       "USB Switch"
     ],
     [
-      "ab4ba3e9-a611-4d10-9d06-ad295d724231",
-      "Source 2 Switch"
+      "eb1a5f30-b749-4bfd-9531-3141360b0a4b",
+      "USB"
     ],
     [
       "27657fe8-b452-4c56-a63c-0de467e70434",
       "Output Connectors"
     ],
     [
-      "052eedd4-ad16-4e31-aa3a-64de8b7539ca",
-      "KVM"
-    ],
-    [
       "f3b1e86b-0ae6-4c98-833b-80f152fb499e",
       "Power"
-    ],
-    [
-      "82967964-ba91-4f52-af8b-f888e27715d3",
-      "Input Connectors A"
     ],
     [
       "564facac-4525-495d-86b4-f74b47fb1ffc",
@@ -560,6 +565,10 @@
     [
       "254d17a8-e948-4870-9f74-64706306cbcb",
       "VBUS Switch"
+    ],
+    [
+      "ab4ba3e9-a611-4d10-9d06-ad295d724231",
+      "Source 2 Switch"
     ],
     [
       "ecefd951-f295-42bb-a5cb-8598ed1aed8b",
