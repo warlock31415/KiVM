@@ -1,0 +1,3156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/pk/Workspace/KiVM/KiVM.kicad_sch</source>
+    <date>Sat 23 Sep 2023 03:03:33 PM CDT</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>KiVM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>KVM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/KVM/Input Connectors A/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/82967964-ba91-4f52-af8b-f888e27715d3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>InConn.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/KVM/Input Connectors B/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/90d07cac-fa4c-41c2-9d67-7f8f019373dd/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>InConn.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/KVM/USB Switch/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/2316ae62-524e-493b-81b1-b2e4a75e400c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TC7USB42MU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB2422.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>5V0Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OutConn.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>9d53804f-1896-4c24-8370-c904164d16b9</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>GREEN</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LCGCK.pdf</datasheet>
+      <fields>
+        <field name="Color">GREEN</field>
+        <field name="MPN">APTD2012LCGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Max Forward Current">2mA</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Diodes/754-2043-1-ND" description="LED GREEN CLEAR 0603 SMD"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="MPN" value="APTD2012LCGCK"/>
+      <property name="Color" value="GREEN"/>
+      <property name="Max Forward Current" value="2mA"/>
+      <property name="Max Reverse Voltage" value=""/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="LED GREEN CLEAR 0603 SMD"/>
+      <property name="ki_keywords" value="LED, GREEN, 0805"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>0223e360-e980-4fd4-b0d1-e116594ca92a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>GREEN</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LCGCK.pdf</datasheet>
+      <fields>
+        <field name="Color">GREEN</field>
+        <field name="MPN">APTD2012LCGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Max Forward Current">2mA</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Diodes/754-2043-1-ND" description="LED GREEN CLEAR 0603 SMD"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="MPN" value="APTD2012LCGCK"/>
+      <property name="Color" value="GREEN"/>
+      <property name="Max Forward Current" value="2mA"/>
+      <property name="Max Reverse Voltage" value=""/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="LED GREEN CLEAR 0603 SMD"/>
+      <property name="ki_keywords" value="LED, GREEN, 0805"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>178604d0-f184-4031-a7b8-6d9910f0511c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/4W</field>
+        <field name="Resistance">10K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RNCP0805FTD10K0CT-ND" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Resistance" value="10K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/4W"/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="ki_keywords" value="10k Ohms, 0805"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>1ed6518a-3511-434a-a080-852bbe541962</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-07120RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">120R</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/311-120ARCT-ND" description="RES 120 OHM 5% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805JR-07120RL"/>
+      <property name="Resistance" value="120R"/>
+      <property name="Tolerance" value="5%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="RES 120 OHM 5% 1/8W 0805"/>
+      <property name="ki_keywords" value="120 Ohms, 0805"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>5bea8e82-3408-4bdf-9576-17a0e762c3e5</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-07120RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">120R</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/311-120ARCT-ND" description="RES 120 OHM 5% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805JR-07120RL"/>
+      <property name="Resistance" value="120R"/>
+      <property name="Tolerance" value="5%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="RES 120 OHM 5% 1/8W 0805"/>
+      <property name="ki_keywords" value="120 Ohms, 0805"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>6d3c504a-f9a4-4fe4-bb59-06f96007d181</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="KVM"/>
+      <property name="Sheetfile" value="KVM.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/KVM/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/"/>
+      <tstamps>dbb89f55-d07c-4379-87c8-a28736cde179</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LCGCK.pdf</datasheet>
+      <fields>
+        <field name="Color">GREEN</field>
+        <field name="MPN">APTD2012LCGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Max Forward Current">2mA</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Diodes/754-2043-1-ND" description="LED GREEN CLEAR 0603 SMD"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="MPN" value="APTD2012LCGCK"/>
+      <property name="Color" value="GREEN"/>
+      <property name="Max Forward Current" value="2mA"/>
+      <property name="Max Reverse Voltage" value=""/>
+      <property name="Sheetname" value="Input Connectors A"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="LED GREEN CLEAR 0603 SMD"/>
+      <property name="ki_keywords" value="LED, GREEN, 0805"/>
+      <sheetpath names="/KVM/Input Connectors A/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/82967964-ba91-4f52-af8b-f888e27715d3/"/>
+      <tstamps>1da1cde5-f8d0-49f4-b452-8a8f42ea9c9f</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>Rockerrobotics:AMPHENOL_12402012E212A</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/C12402012-4.pdf</datasheet>
+      <fields>
+        <field name="Connections">8</field>
+        <field name="MPN">12402012E212A</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
+        <field name="Max Current">5A</field>
+        <field name="Max Voltage">100 VAC</field>
+        <field name="Pitch">0.5mm</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Connectors/664-12402012E212ADKR-ND" description="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="Manufacturer" value="Amphenol ICC (Commercial Products)"/>
+      <property name="MPN" value="12402012E212A"/>
+      <property name="Connections" value="8"/>
+      <property name="Max Current" value="5A"/>
+      <property name="Max Voltage" value="100 VAC"/>
+      <property name="Pitch" value="0.5mm"/>
+      <property name="Sheetname" value="Input Connectors A"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="ki_keywords" value="USB-C, USB 2.0"/>
+      <sheetpath names="/KVM/Input Connectors A/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/82967964-ba91-4f52-af8b-f888e27715d3/"/>
+      <tstamps>df5eaa2f-b9e1-4fab-82bc-9ae60b8d0ffa</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Input Connectors A"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/KVM/Input Connectors A/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/82967964-ba91-4f52-af8b-f888e27715d3/"/>
+      <tstamps>7313c5e8-fbad-4627-9cc4-a2025f2b2e3d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Input Connectors A"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/KVM/Input Connectors A/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/82967964-ba91-4f52-af8b-f888e27715d3/"/>
+      <tstamps>86fd06ee-8f97-47d3-ab01-953d42cfbe36</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LCGCK.pdf</datasheet>
+      <fields>
+        <field name="Color">GREEN</field>
+        <field name="MPN">APTD2012LCGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Max Forward Current">2mA</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Diodes/754-2043-1-ND" description="LED GREEN CLEAR 0603 SMD"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="MPN" value="APTD2012LCGCK"/>
+      <property name="Color" value="GREEN"/>
+      <property name="Max Forward Current" value="2mA"/>
+      <property name="Max Reverse Voltage" value=""/>
+      <property name="Sheetname" value="Input Connectors B"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="LED GREEN CLEAR 0603 SMD"/>
+      <property name="ki_keywords" value="LED, GREEN, 0805"/>
+      <sheetpath names="/KVM/Input Connectors B/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/90d07cac-fa4c-41c2-9d67-7f8f019373dd/"/>
+      <tstamps>1da1cde5-f8d0-49f4-b452-8a8f42ea9c9f</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>Rockerrobotics:AMPHENOL_12402012E212A</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/C12402012-4.pdf</datasheet>
+      <fields>
+        <field name="Connections">8</field>
+        <field name="MPN">12402012E212A</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
+        <field name="Max Current">5A</field>
+        <field name="Max Voltage">100 VAC</field>
+        <field name="Pitch">0.5mm</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Connectors/664-12402012E212ADKR-ND" description="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="Manufacturer" value="Amphenol ICC (Commercial Products)"/>
+      <property name="MPN" value="12402012E212A"/>
+      <property name="Connections" value="8"/>
+      <property name="Max Current" value="5A"/>
+      <property name="Max Voltage" value="100 VAC"/>
+      <property name="Pitch" value="0.5mm"/>
+      <property name="Sheetname" value="Input Connectors B"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="ki_keywords" value="USB-C, USB 2.0"/>
+      <sheetpath names="/KVM/Input Connectors B/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/90d07cac-fa4c-41c2-9d67-7f8f019373dd/"/>
+      <tstamps>df5eaa2f-b9e1-4fab-82bc-9ae60b8d0ffa</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Input Connectors B"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/KVM/Input Connectors B/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/90d07cac-fa4c-41c2-9d67-7f8f019373dd/"/>
+      <tstamps>7313c5e8-fbad-4627-9cc4-a2025f2b2e3d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Input Connectors B"/>
+      <property name="Sheetfile" value="InConn.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/KVM/Input Connectors B/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/90d07cac-fa4c-41c2-9d67-7f8f019373dd/"/>
+      <tstamps>86fd06ee-8f97-47d3-ab01-953d42cfbe36</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="USB Switch"/>
+      <property name="Sheetfile" value="TC7USB42MU.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/KVM/USB Switch/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/2316ae62-524e-493b-81b1-b2e4a75e400c/"/>
+      <tstamps>1ffa0ec7-a220-489c-9bc7-c0c5ba9cf93e</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB Switch"/>
+      <property name="Sheetfile" value="TC7USB42MU.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB Switch/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/2316ae62-524e-493b-81b1-b2e4a75e400c/"/>
+      <tstamps>e5ed7554-9810-416c-87b4-15378632bd33</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB Switch"/>
+      <property name="Sheetfile" value="TC7USB42MU.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB Switch/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/2316ae62-524e-493b-81b1-b2e4a75e400c/"/>
+      <tstamps>f6c53604-a5b6-45c4-9113-005b147dcc42</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>RS2227XN</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://en.run-ic.com/en/upload/web/uploads/file/20210421/0NSi9E3MUnb15a28PB903i6ky4aG11G8.pdf</datasheet>
+      <fields>
+        <field name="MPN">RS2227XN</field>
+        <field name="Manufacturer">Runic Technology</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Integrated Circuits/3565-RS2227XNCT-ND" description="IC USB SWITCH DPDT 10MSOP"/>
+      <property name="Manufacturer" value="Runic Technology"/>
+      <property name="MPN" value="RS2227XN"/>
+      <property name="Sheetname" value="USB Switch"/>
+      <property name="Sheetfile" value="TC7USB42MU.kicad_sch"/>
+      <property name="ki_description" value="IC USB SWITCH DPDT 10MSOP"/>
+      <sheetpath names="/KVM/USB Switch/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/2316ae62-524e-493b-81b1-b2e4a75e400c/"/>
+      <tstamps>15f9f3d3-a12d-4622-a9cb-8f5732e4f006</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1000pF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B102KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1018-1-ND" description="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B102KB8NNNC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="1000pF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="1000pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>52be21dc-c908-4d11-95f6-f551241d6112</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1000pF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B102KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1018-1-ND" description="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B102KB8NNNC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="1000pF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="1000pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>ea87dfec-ee86-438f-9ac0-29e710cf77e3</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1000pF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B102KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1018-1-ND" description="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B102KB8NNNC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="1000pF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="1000pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>54b463e1-cced-46dd-832b-9622f0e29f2b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>9d6a376a-832c-433f-8bb1-94998bb4aae0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1000pF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B102KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1018-1-ND" description="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B102KB8NNNC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="1000pF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="1000pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>6f61dfb6-2bf9-45f7-8380-80b6932d8f68</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">18pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="MPN">0603N180J500CT</field>
+        <field name="Manufacturer">Walsin Technology Corporation</field>
+        <field name="Tolerance">5</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1292-1494-1-ND" description="18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="0603N180J500CT"/>
+      <property name="Dielectric" value="C0G"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="18pF"/>
+      <property name="Tolerance" value="5"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="18pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>5c9621b6-99ec-4665-9fe8-031b432acf62</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>7396d551-43ed-4035-b835-9e8e38afb69f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1000pF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B102KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1018-1-ND" description="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B102KB8NNNC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="1000pF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="1000pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>e88402f6-7756-47f8-918b-2a9c3740bcc0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>94552af8-0b35-4656-a49c-bc5f3d596392</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>ed5d348f-77a0-418e-871c-d42e9bedb340</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>c939cb7d-33f2-4cb4-ac90-d60fdbc352a6</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>15feea87-8849-4c6f-bfd5-7981826213c8</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>5581944c-a020-49ec-b33f-bb736b40a7b1</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">18pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="MPN">0603N180J500CT</field>
+        <field name="Manufacturer">Walsin Technology Corporation</field>
+        <field name="Tolerance">5</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1292-1494-1-ND" description="18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Walsin Technology Corporation"/>
+      <property name="MPN" value="0603N180J500CT"/>
+      <property name="Dielectric" value="C0G"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="18pF"/>
+      <property name="Tolerance" value="5"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="ki_keywords" value="18pF,0603"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>8faa5671-182c-4a41-b623-422f13cfdbee</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>38496c17-b60f-4dcf-94c0-b89ab084a311</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>e28df533-d24e-423e-8696-de0976f6a706</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/4W</field>
+        <field name="Resistance">10K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RNCP0805FTD10K0CT-ND" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Resistance" value="10K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/4W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="ki_keywords" value="10k Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>310e950b-4b7f-4d1f-9094-1b4c3d5714a7</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0712KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">12K</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/311-12KARCT-ND" description="RES 12K OHM 5% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805JR-0712KL"/>
+      <property name="Resistance" value="12K"/>
+      <property name="Tolerance" value="5%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 12K OHM 5% 1/8W 0805"/>
+      <property name="ki_keywords" value="12K Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>0c916a6f-5ff4-41ac-aaa6-1c49b27ecb2e</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/4W</field>
+        <field name="Resistance">10K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RNCP0805FTD10K0CT-ND" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Resistance" value="10K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/4W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="ki_keywords" value="10k Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>624deba9-6e8f-405a-91d2-3ae1384e6d48</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/4W</field>
+        <field name="Resistance">10K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RNCP0805FTD10K0CT-ND" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Resistance" value="10K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/4W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="ki_keywords" value="10k Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>7256a880-e521-46fc-9ad8-74491231c6a2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RNCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/4W</field>
+        <field name="Resistance">10K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RNCP0805FTD10K0CT-ND" description="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RNCP0805FTD10K0"/>
+      <property name="Resistance" value="10K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/4W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 10K OHM 1% 1/4W 0805"/>
+      <property name="ki_keywords" value="10k Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>a64a245c-b71e-4b97-a131-8825d258db64</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>59ea71fa-996d-4d02-afdf-f5680dac73b4</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>59fd28c7-071b-452a-80da-a851af0ed0a4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>USB2422T/MJ</value>
+      <footprint>Rockerrobotics:SQFN24_4X4MC_MCH</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001726B.pdf</datasheet>
+      <fields>
+        <field name="MPN">USB2422T/MJ</field>
+        <field name="Manufacturer">Microchip Technology</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Integrated Circuits/USB2422T/MJCT-ND" description="IC HUB CTLR USB 2.0 24QFN"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="MPN" value="USB2422T/MJ"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="IC HUB CTLR USB 2.0 24QFN"/>
+      <property name="ki_keywords" value="USB, Hub, 2 port"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>e29cbaf6-48f4-4ff9-8138-7beb02978333</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AP2176SG-13</value>
+      <footprint>Rockerrobotics:Diodes-SO8</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2166_76.pdf</datasheet>
+      <fields>
+        <field name="MPN">AP2176SG-13</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Integrated Circuits/AP2176SGDICT-ND" description="IC PWR SWITCH P-CHANNEL 1:2 8SOP"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="AP2176SG-13"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="IC PWR SWITCH P-CHANNEL 1:2 8SOP"/>
+      <property name="ki_keywords" value="USB, Power Switch, Pchannel"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>e70f7c17-77a8-41b0-a375-cdeff1db8465</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>24MHz</value>
+      <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ECX-2236.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">18pF</field>
+        <field name="MPN">ECS-240-18-36-AGM-TR</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Tolerance">50</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Oscillator/XC2641CT-ND" description="CRYSTAL 24.0000MHZ 18PF SMD"/>
+      <property name="Manufacturer" value="ECS Inc."/>
+      <property name="MPN" value="ECS-240-18-36-AGM-TR"/>
+      <property name="Capacitance" value="18pF"/>
+      <property name="Tolerance" value="50"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="USB2422.kicad_sch"/>
+      <property name="ki_description" value="CRYSTAL 24.0000MHZ 18PF SMD"/>
+      <property name="ki_keywords" value="24MHz, Crystal"/>
+      <sheetpath names="/KVM/USB/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/eb1a5f30-b749-4bfd-9531-3141360b0a4b/"/>
+      <tstamps>f01e2bd2-b762-4fec-a989-308eaf9c4c8c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>5855273a-650e-412c-ba89-be9a21d82fc2</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>12240f47-a733-4963-ab94-ee31823ca59d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>9cc3bdb3-93be-40aa-88ef-eda92d1c2e05</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>13d6745a-9355-436d-8ec0-950eaba390d1</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>e87f4747-629a-4f10-ad41-e190c8562084</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>c3693fb1-2358-46ad-ab5f-cb8a6ef73b3f</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>6ff6ca02-a103-4c05-9802-7952d3d56134</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>69628a86-4aa0-482a-96c6-e03e3b9a759c</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>cd43150d-8730-4869-b424-2e3bed245d5d</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>d6f4fc69-a3bb-4149-8517-b3b1d7b69f8d</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>244dfe02-c68d-4502-9b1c-3e2c95f0b595</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>9b7c439e-8775-40cf-9e31-7e3b336e051e</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>c010820b-0594-45ac-90bd-4a4cadf19717</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>efd96b0d-a3f7-4fa7-9448-5230bc67d25a</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>00b7111a-8d22-4440-8e63-9634453cda38</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>a42eae90-1f8a-4292-8e45-bd6d12abc6eb</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>a65fc1f7-f873-44dd-9855-5b1a14c5f2b2</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">25 V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND" description="CAP CER 10UF 25V X7R 1206"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL31B106KAHNFNE"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="25 V"/>
+      <property name="Capacitance" value="10uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CAP CER 10UF 25V X7R 1206"/>
+      <property name="ki_keywords" value="10uF, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>5e9361b4-1a74-4230-9c51-7c052fad74c9</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-037A</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/pj-037a.pdf</datasheet>
+      <fields>
+        <field name="Connections">2</field>
+        <field name="MPN">PJ-037A</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Max Current">2.5A</field>
+        <field name="Max Voltage">24 V</field>
+        <field name="Pitch">-</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Connectors/CP-037A-ND" description="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="MPN" value="PJ-037A"/>
+      <property name="Connections" value="2"/>
+      <property name="Max Current" value="2.5A"/>
+      <property name="Max Voltage" value="24 V"/>
+      <property name="Pitch" value="-"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="CONN PWR JACK 2X5.5MM SOLDER"/>
+      <property name="ki_keywords" value="Barrel Jack"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>266ad5d9-4c36-43b6-be80-4f28f4cffd95</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <footprint>Inductor_SMD:L_Abracon_ASPI-0630LR</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>7118e05f-d3f4-4d4d-9db9-eb3d569f7ef3</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>4.7uH</value>
+      <footprint>Inductor_SMD:L_Abracon_ASPI-0630LR</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>2c1906cf-eaf1-415f-ba83-5fffa788b712</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>22.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RN73H.pdf</datasheet>
+      <fields>
+        <field name="MPN">RN73H2ATTD2292B25</field>
+        <field name="Manufacturer">KOA Speer Electronics, Inc.</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">22.9K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/2019-RN73H2ATTD2292B25CT-ND" description="RES 22.9K OHM 0.1% 1/8W 0805"/>
+      <property name="Manufacturer" value="KOA Speer Electronics, Inc."/>
+      <property name="MPN" value="RN73H2ATTD2292B25"/>
+      <property name="Resistance" value="22.9K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 22.9K OHM 0.1% 1/8W 0805"/>
+      <property name="ki_keywords" value="22.9K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>32b7397f-d755-4b1f-8a8d-e25756eafa23</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>5ec9733e-1c0b-4063-860d-5090830ff3d5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>22.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RN73H.pdf</datasheet>
+      <fields>
+        <field name="MPN">RN73H2ATTD2292B25</field>
+        <field name="Manufacturer">KOA Speer Electronics, Inc.</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">22.9K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/2019-RN73H2ATTD2292B25CT-ND" description="RES 22.9K OHM 0.1% 1/8W 0805"/>
+      <property name="Manufacturer" value="KOA Speer Electronics, Inc."/>
+      <property name="MPN" value="RN73H2ATTD2292B25"/>
+      <property name="Resistance" value="22.9K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 22.9K OHM 0.1% 1/8W 0805"/>
+      <property name="ki_keywords" value="22.9K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>91167856-cc71-4328-95fc-5740abe619b8</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>48c13cfe-842c-492d-bdf7-1567db18c937</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>19.1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0719K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">19.1K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/311-19.1KCRCT-ND" description="RES 19.1K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805FR-0719K1L"/>
+      <property name="Resistance" value="19.1K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 19.1K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="19.1K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>c3dd0d0e-4f71-4945-bede-e5ad4784712d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>40a389e3-3ec2-4b0f-9b75-38aebdcee9cd</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>32.4K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-0732K4L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">32.4K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/311-32.4KCRCT-ND" description="RES 32.4K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805FR-0732K4L"/>
+      <property name="Resistance" value="32.4K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 32.4K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="32.4K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>6a734b6a-4e58-4196-9408-d418e5610403</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MPN" value="RMCF0805FT100K"/>
+      <property name="Resistance" value="100K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="100K Ohms, 0805"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>5f820438-a408-4dde-86e5-635067f78845</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LMR51450FNDRRR</value>
+      <footprint>Rockerrobotics:TI_DFN12_P0.5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmr51440.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMR51450FNDRRR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Integrated Circuits/296-LMR51450FNDRRRCT-ND" description="IC REG BUCK ADJ 5A 12WSON"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="LMR51450FNDRRR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="IC REG BUCK ADJ 5A 12WSON"/>
+      <property name="ki_keywords" value="Buck regulator, 5V"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>ed113be4-84bc-4c17-a0d8-dcad580bb5ca</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LMR51450FNDRRR</value>
+      <footprint>Rockerrobotics:TI_DFN12_P0.5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmr51440.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMR51450FNDRRR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Integrated Circuits/296-LMR51450FNDRRRCT-ND" description="IC REG BUCK ADJ 5A 12WSON"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="LMR51450FNDRRR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="5V0Power.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="IC REG BUCK ADJ 5A 12WSON"/>
+      <property name="ki_keywords" value="Buck regulator, 5V"/>
+      <sheetpath names="/Power/" tstamps="/be18fe5b-d178-49b9-9362-df8dbe9a13ba/"/>
+      <tstamps>5fe92fa2-c60f-44e3-9796-09fa3373e143</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>ca2f3135-156a-44e2-a606-642cfc5c78dd</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">1uF</field>
+        <field name="Dielectric">X5R</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Tolerance">10</field>
+        <field name="Voltage Rating">16V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND" description="CAP CER 1UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10A105KO8NNNC"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Voltage Rating" value="16V"/>
+      <property name="Capacitance" value="1uF"/>
+      <property name="Tolerance" value="10"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 1UF 16V X5R 0603"/>
+      <property name="ki_keywords" value="1uF,0603"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>2233684e-c063-432c-b191-70b22c4f98c5</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>eb9399b2-45ce-4bdd-8482-74dc0c3b0032</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.1uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND" description="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNWC"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Capacitance" value="0.1uF"/>
+      <property name="Tolerance" value=""/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="ki_keywords" value="0.1uF,0603"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>f6b47c77-300c-45e6-8546-6b3ce72991ed</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>Rockerrobotics:AMPHENOL_12402012E212A</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/C12402012-4.pdf</datasheet>
+      <fields>
+        <field name="Connections">8</field>
+        <field name="MPN">12402012E212A</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
+        <field name="Max Current">5A</field>
+        <field name="Max Voltage">100 VAC</field>
+        <field name="Pitch">0.5mm</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Connectors/664-12402012E212ADKR-ND" description="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="Manufacturer" value="Amphenol ICC (Commercial Products)"/>
+      <property name="MPN" value="12402012E212A"/>
+      <property name="Connections" value="8"/>
+      <property name="Max Current" value="5A"/>
+      <property name="Max Voltage" value="100 VAC"/>
+      <property name="Pitch" value="0.5mm"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="ki_keywords" value="USB-C, USB 2.0"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>ee892b5f-8266-4628-a663-030efe188527</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>Rockerrobotics:AMPHENOL_12402012E212A</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/C12402012-4.pdf</datasheet>
+      <fields>
+        <field name="Connections">8</field>
+        <field name="MPN">12402012E212A</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
+        <field name="Max Current">5A</field>
+        <field name="Max Voltage">100 VAC</field>
+        <field name="Pitch">0.5mm</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Connectors/664-12402012E212ADKR-ND" description="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="Manufacturer" value="Amphenol ICC (Commercial Products)"/>
+      <property name="MPN" value="12402012E212A"/>
+      <property name="Connections" value="8"/>
+      <property name="Max Current" value="5A"/>
+      <property name="Max Voltage" value="100 VAC"/>
+      <property name="Pitch" value="0.5mm"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="CONN RCP USB2.0 TYP C 24P SMD RA"/>
+      <property name="ki_keywords" value="USB-C, USB 2.0"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>70360dfa-1f4a-46cc-b982-d333ed1dbdb9</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-1322KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">22K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/13-RC0805FR-1322KLCT-ND" description="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805FR-1322KL"/>
+      <property name="Resistance" value="22K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="22K Ohms, 0805"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>3e794eb1-8440-417c-bf34-de7e0663aef8</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-1322KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">22K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/13-RC0805FR-1322KLCT-ND" description="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805FR-1322KL"/>
+      <property name="Resistance" value="22K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="22K Ohms, 0805"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>22134994-c955-4e7c-b84c-b35dc840f0f2</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-1322KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">22K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/13-RC0805FR-1322KLCT-ND" description="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805FR-1322KL"/>
+      <property name="Resistance" value="22K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="22K Ohms, 0805"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>fa82f070-39ed-4313-ac0a-98839f8d1877</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>22K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-1322KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Power Rating">1/8W</field>
+        <field name="Resistance">22K</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Rockerrobotics" part="Resistors/13-RC0805FR-1322KLCT-ND" description="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0805FR-1322KL"/>
+      <property name="Resistance" value="22K"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Power Rating" value="1/8W"/>
+      <property name="Sheetname" value="Output Connectors"/>
+      <property name="Sheetfile" value="OutConn.kicad_sch"/>
+      <property name="ki_description" value="RES 22K OHM 1% 1/8W 0805"/>
+      <property name="ki_keywords" value="22K Ohms, 0805"/>
+      <sheetpath names="/KVM/Output Connectors/" tstamps="/052eedd4-ad16-4e31-aa3a-64de8b7539ca/27657fe8-b452-4c56-a63c-0de467e70434/"/>
+      <tstamps>ac828f08-f298-473f-afc2-1a172e697a65</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Capacitors/1276-1018-1-ND">
+      <description>1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">${Capacitance}</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B102KB8NNNC_Spec.pdf</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B102KB8NNNC</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+        <field name="Capacitance">1000pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Capacitors/1276-1034-1-ND">
+      <description>CAP CER 1UF 16V X5R 0603</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">${Capacitance}</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A105KO8NNNC_Spec.pdf</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10A105KO8NNNC</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Voltage Rating">16V</field>
+        <field name="Capacitance">1uF</field>
+        <field name="Tolerance">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Capacitors/1276-1935-1-ND">
+      <description>CAP CER 0.1UF 50V X7R 0603</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">${Capacitance}</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNWC_Spec.pdf</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B104KB8NNWC</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+        <field name="Capacitance">0.1uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Capacitors/1276-3100-1-ND">
+      <description>CAP CER 10UF 25V X7R 1206</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">${Capacitance}</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNFNE_Spec.pdf</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL31B106KAHNFNE</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">25 V</field>
+        <field name="Capacitance">10uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Capacitors/1292-1494-1-ND">
+      <description>18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">${Capacitance}</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</field>
+        <field name="Manufacturer">Walsin Technology Corporation</field>
+        <field name="MPN">0603N180J500CT</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Voltage Rating">50V</field>
+        <field name="Capacitance">18pF</field>
+        <field name="Tolerance">5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Connectors/664-12402012E212ADKR-ND">
+      <description>CONN RCP USB2.0 TYP C 24P SMD RA</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/C12402012-4.pdf</docs>
+      <footprints>
+        <fp>USB*C*Plug*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">${MPN}</field>
+        <field name="Footprint">Rockerrobotics:AMPHENOL_12402012E212A</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/C12402012-4.pdf</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
+        <field name="MPN">12402012E212A</field>
+        <field name="Connections">8</field>
+        <field name="Max Current">5A</field>
+        <field name="Max Voltage">100 VAC</field>
+        <field name="Pitch">0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="VCONN" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Connectors/CP-037A-ND">
+      <description>CONN PWR JACK 2X5.5MM SOLDER</description>
+      <docs>https://www.cuidevices.com/product/resource/pj-037a.pdf</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">${MPN}</field>
+        <field name="Footprint">Rockerrobotics:CUI_PJ-037B</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/pj-037a.pdf</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="MPN">PJ-037A</field>
+        <field name="Connections">2</field>
+        <field name="Max Current">2.5A</field>
+        <field name="Max Voltage">24 V</field>
+        <field name="Pitch">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Diodes/754-2043-1-ND">
+      <description>LED GREEN CLEAR 0603 SMD</description>
+      <docs>https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LCGCK.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">${Color}</field>
+        <field name="Footprint">Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LCGCK.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="MPN">APTD2012LCGCK</field>
+        <field name="Color">GREEN</field>
+        <field name="Max Forward Current">2mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Integrated Circuits/296-LMR51450FNDRRRCT-ND">
+      <description>IC REG BUCK ADJ 5A 12WSON</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmr51440.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">${MPN}</field>
+        <field name="Footprint">Rockerrobotics:TI_DFN12_P0.5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmr51440.pdf</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">LMR51450FNDRRR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="SW" type="output"/>
+        <pin num="4" name="BOOT" type="input"/>
+        <pin num="5" name="PG" type="open_collector"/>
+        <pin num="6" name="RT" type="input"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="AGND" type="power_out"/>
+        <pin num="9" name="EN" type="input"/>
+        <pin num="10" name="VIN" type="power_in"/>
+        <pin num="11" name="VIN" type="power_in"/>
+        <pin num="12" name="VIN" type="power_in"/>
+        <pin num="13" name="PGND/DAP" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Integrated Circuits/3565-RS2227XNCT-ND">
+      <description>IC USB SWITCH DPDT 10MSOP</description>
+      <docs>http://en.run-ic.com/en/upload/web/uploads/file/20210421/0NSi9E3MUnb15a28PB903i6ky4aG11G8.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">${MPN}</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">http://en.run-ic.com/en/upload/web/uploads/file/20210421/0NSi9E3MUnb15a28PB903i6ky4aG11G8.pdf</field>
+        <field name="Manufacturer">Runic Technology</field>
+        <field name="MPN">RS2227XN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="power_in"/>
+        <pin num="2" name="SELECT" type="input"/>
+        <pin num="3" name="D_P" type="bidirectional"/>
+        <pin num="4" name="D_N" type="bidirectional"/>
+        <pin num="5" name="GND" type="bidirectional"/>
+        <pin num="6" name="HSD1_N" type="bidirectional"/>
+        <pin num="7" name="HSD1_P" type="bidirectional"/>
+        <pin num="8" name="HSD2_N" type="bidirectional"/>
+        <pin num="9" name="HSD2_P" type="bidirectional"/>
+        <pin num="10" name="OE_B" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Integrated Circuits/AP2176SGDICT-ND">
+      <description>IC PWR SWITCH P-CHANNEL 1:2 8SOP</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2166_76.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">${MPN}</field>
+        <field name="Footprint">Rockerrobotics:Diodes-SO8</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2166_76.pdf</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">AP2176SG-13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1" type="input"/>
+        <pin num="2" name="FLG1_B" type="open_collector"/>
+        <pin num="3" name="FLG2_B" type="open_collector"/>
+        <pin num="4" name="EN2" type="input"/>
+        <pin num="5" name="OUT2" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="IN" type="power_in"/>
+        <pin num="8" name="OUT1" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Integrated Circuits/USB2422T/MJCT-ND">
+      <description>IC HUB CTLR USB 2.0 24QFN</description>
+      <docs>https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001726B.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">${MPN}</field>
+        <field name="Footprint">Rockerrobotics:SQFN24_4X4MC_MCH</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001726B.pdf</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="MPN">USB2422T/MJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="USBM_DWN1" type="bidirectional"/>
+        <pin num="3" name="USBP_DWN1" type="bidirectional"/>
+        <pin num="4" name="USBM_DWN2" type="bidirectional"/>
+        <pin num="5" name="USBP_DWN2" type="bidirectional"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="PRTPWR1" type="output"/>
+        <pin num="8" name="~{OCS1}" type="output"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="CRFILT" type="passive"/>
+        <pin num="11" name="PRTPWR2" type="output"/>
+        <pin num="12" name="~{OCS2}" type="output"/>
+        <pin num="13" name="SMBDAT/NO_REM1" type="bidirectional"/>
+        <pin num="14" name="SMBCLK/CFG_SEL0" type="input"/>
+        <pin num="15" name="~{RST}" type="input"/>
+        <pin num="16" name="VBUS-DET" type="input"/>
+        <pin num="17" name="NO_REM0" type="bidirectional"/>
+        <pin num="18" name="VDD" type="power_in"/>
+        <pin num="19" name="USBP_UP" type="bidirectional"/>
+        <pin num="20" name="USBM_UP" type="bidirectional"/>
+        <pin num="21" name="XTALOUT" type="output"/>
+        <pin num="22" name="XTALIN" type="input"/>
+        <pin num="23" name="PLLFILT" type="passive"/>
+        <pin num="24" name="RBIAS" type="passive"/>
+        <pin num="25" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Oscillator/XC2641CT-ND">
+      <description>CRYSTAL 24.0000MHZ 18PF SMD</description>
+      <docs>https://ecsxtal.com/store/pdf/ECX-2236.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">24MHz</field>
+        <field name="Footprint">Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ECX-2236.pdf</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="MPN">ECS-240-18-36-AGM-TR</field>
+        <field name="Capacitance">18pF</field>
+        <field name="Tolerance">50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/13-RC0805FR-1322KLCT-ND">
+      <description>RES 22K OHM 1% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0805FR-1322KL</field>
+        <field name="Resistance">22K</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/2019-RN73H2ATTD2292B25CT-ND">
+      <description>RES 22.9K OHM 0.1% 1/8W 0805</description>
+      <docs>https://www.koaspeer.com/pdfs/RN73H.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.koaspeer.com/pdfs/RN73H.pdf</field>
+        <field name="Manufacturer">KOA Speer Electronics, Inc.</field>
+        <field name="MPN">RN73H2ATTD2292B25</field>
+        <field name="Resistance">22.9K</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/311-120ARCT-ND">
+      <description>RES 120 OHM 5% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0805JR-07120RL</field>
+        <field name="Resistance">120R</field>
+        <field name="Tolerance">5%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/311-12KARCT-ND">
+      <description>RES 12K OHM 5% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0805JR-0712KL</field>
+        <field name="Resistance">12K</field>
+        <field name="Tolerance">5%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/311-19.1KCRCT-ND">
+      <description>RES 19.1K OHM 1% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0805FR-0719K1L</field>
+        <field name="Resistance">19.1K</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/311-32.4KCRCT-ND">
+      <description>RES 32.4K OHM 1% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0805FR-0732K4L</field>
+        <field name="Resistance">32.4K</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/RMCF0805FT100KCT-ND">
+      <description>RES 100K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="MPN">RMCF0805FT100K</field>
+        <field name="Resistance">100K</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power Rating">1/8W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rockerrobotics" part="Resistors/RNCP0805FTD10K0CT-ND">
+      <description>RES 10K OHM 1% 1/4W 0805</description>
+      <docs>https://www.seielect.com/Catalog/SEI-RNCP.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">${Resistance}</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RNCP.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="MPN">RNCP0805FTD10K0</field>
+        <field name="Resistance">10K</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power Rating">1/4W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Rockerrobotics">
+      <uri>/home/pk/Workspace/robotics-libraries/Rockerrobotics.kicad_dbl</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="5" name="+3V3">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="IN" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="7" name="+12V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="12" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="8" name="/KVM/DFP_USB_A.D_N">
+      <node ref="P1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="HSD1_N" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/KVM/DFP_USB_A.D_P">
+      <node ref="P1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="7" pinfunction="HSD1_P" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/KVM/DFP_USB_B.D_N">
+      <node ref="P2" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="8" pinfunction="HSD2_N" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/KVM/DFP_USB_B.D_P">
+      <node ref="P2" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="9" pinfunction="HSD2_P" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/KVM/Input Connectors A/VBUS">
+      <node ref="P1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/KVM/Input Connectors B/VBUS">
+      <node ref="P2" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P2" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P2" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P2" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/KVM/Output Connectors/UFP_USB1.D_N">
+      <node ref="P3" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="USBM_DWN1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/KVM/Output Connectors/UFP_USB1.D_P">
+      <node ref="P3" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="USBP_DWN1" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/KVM/Output Connectors/UFP_USB2.D_N">
+      <node ref="P4" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="USBM_DWN2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/KVM/Output Connectors/UFP_USB2.D_P">
+      <node ref="P4" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="USBP_DWN2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/KVM/Output Connectors/USP_PWR1">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="P3" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P3" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P3" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P3" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT2" pintype="power_out"/>
+    </net>
+    <net code="23" name="/KVM/Output Connectors/USP_PWR2">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="P4" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P4" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P4" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P4" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="OUT1" pintype="power_out"/>
+    </net>
+    <net code="24" name="/KVM/SOURCE_SEL">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="SELECT" pintype="input"/>
+    </net>
+    <net code="25" name="/KVM/USB Switch/USB_UP.D_N">
+      <node ref="U2" pin="20" pinfunction="USBM_UP" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="D_N" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/KVM/USB Switch/USB_UP.D_P">
+      <node ref="U2" pin="19" pinfunction="USBP_UP" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="D_P" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/KVM/USB/VBUS_DET">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="VBUS-DET" pintype="input"/>
+    </net>
+    <net code="29" name="/Power/3V3_SW">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="SW" pintype="output"/>
+      <node ref="U5" pin="2" pinfunction="SW" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="30" name="/Power/5V_SW">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="SW" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="SW" pintype="output"/>
+      <node ref="U4" pin="3" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="31" name="/Power/FB_3V3">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="32" name="/Power/FB_5V">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="P2" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P2" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P2" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P2" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="P2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="P3" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P3" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P3" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P3" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="P3" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="P4" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P4" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P4" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P4" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="P4" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="13" pinfunction="PGND/DAP" pintype="power_out"/>
+      <node ref="U4" pin="8" pinfunction="AGND" pintype="power_out"/>
+      <node ref="U5" pin="13" pinfunction="PGND/DAP" pintype="power_out"/>
+      <node ref="U5" pin="8" pinfunction="AGND" pintype="power_out"/>
+      <node ref="U6" pin="10" pinfunction="OE_B" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(P1-CC)">
+      <node ref="P1" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(P2-CC)">
+      <node ref="P2" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(P3-CC)">
+      <node ref="P3" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(P3-VCONN)">
+      <node ref="P3" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(P4-CC)">
+      <node ref="P4" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(P4-VCONN)">
+      <node ref="P4" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(U2-CRFILT)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="CRFILT" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U2-NO_REM0)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="NO_REM0" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(U2-PLLFILT)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="PLLFILT" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U2-PRTPWR1)">
+      <node ref="U2" pin="7" pinfunction="PRTPWR1" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U2-PRTPWR2)">
+      <node ref="U2" pin="11" pinfunction="PRTPWR2" pintype="output"/>
+      <node ref="U3" pin="1" pinfunction="EN1" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(U2-RBIAS)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="RBIAS" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(U2-SMBCLK{slash}CFG_SEL0)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="SMBCLK/CFG_SEL0" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(U2-SMBDAT{slash}NO_REM1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="SMBDAT/NO_REM1" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(U2-XTALIN)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="XTALIN" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(U2-XTALOUT)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="XTALOUT" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(U2-~{OCS1})">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="~{OCS1}" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="FLG2_B" pintype="open_collector"/>
+    </net>
+    <net code="55" name="Net-(U2-~{OCS2})">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="~{OCS2}" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="FLG1_B" pintype="open_collector"/>
+    </net>
+    <net code="56" name="Net-(U2-~{RST})">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(U4-BOOT)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="BOOT" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(U4-PG)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="59" name="Net-(U4-RT)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(U5-BOOT)">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="BOOT" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(U5-PG)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="62" name="Net-(U5-RT)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="63" name="unconnected-(P1-VCONN-PadB5)">
+      <node ref="P1" pin="B5" pinfunction="VCONN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(P2-VCONN-PadB5)">
+      <node ref="P2" pin="B5" pinfunction="VCONN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U2-NC-Pad6)">
+      <node ref="U2" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
